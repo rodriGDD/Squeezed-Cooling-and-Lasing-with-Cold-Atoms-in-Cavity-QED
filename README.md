@@ -62,7 +62,6 @@ Rodrigo Grande de Diego — rodrigo.grande@iff.csic.es
   title     = {Code and data for "Squeezed Cooling and Lasing with Cold Atoms in Cavity-QED"},
   year      = {2026},
   publisher = {Zenodo},
-  version = {1.0.0},
   doi       = {10.5281/zenodo.24473853},
   url       = {https://doi.org/10.5281/zenodo.24473853}
 }
