@@ -1,12 +1,8 @@
-# Squeezed laser — code and data
+# Squeezed Cooling and Lasing — code and data
 
-Code and data to reproduce the figures of
+This repository contains the code and data required to reproduce the figures of the paper [Squeezed Cooling and Lasing with Cold Atoms in Cavity-QED](https://arxiv.org/html/2611.24743v1).
 
-> **[Title — to be added]**
-> Rodrigo Grande de Diego and Carlos Sánchez Muñoz
-> **[arXiv number — to be added]**
-
-The simulations are Julia notebooks (cumulant expansions with [QuantumCumulants.jl](https://github.com/qojulia/QuantumCumulants.jl), exact steady states with [QuantumToolbox.jl](https://github.com/qutip/QuantumToolbox.jl)); the figures are drawn with Python (matplotlib).
+The simulations are Julia notebooks (cumulant expansions with [QuantumCumulants.jl](https://github.com/qojulia/QuantumCumulants.jl), exact steady states with [QuantumToolbox.jl](https://github.com/qutip/QuantumToolbox.jl)) and the figures are drawn with Python (matplotlib).
 
 <p align="center">
   <img src="fig2_cooling/figures/fig2.png" width="700" alt="Fig. 2"><br>
