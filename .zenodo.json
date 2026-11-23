@@ -1,0 +1,25 @@
+{
+  "title": "Squeezed cooling and lasing with cold atoms in cavity QED: code and data",
+  "upload_type": "software",
+  "description": "Julia simulation notebooks, Python plotting notebooks and data to reproduce Figs. 2, 3, 4 and S5 of the paper.",
+  "creators": [
+    {
+      "name": "Grande de Diego, Rodrigo",
+      "affiliation": "Quantum Advanced Research Center (QuARC), CSIC; Institute of Fundamental Physics (IFF), CSIC, Madrid, Spain",
+      "orcid": "0009-0008-3433-1891"
+    },
+    {
+      "name": "Sánchez Muñoz, Carlos",
+      "affiliation": "Quantum Advanced Research Center (QuARC), CSIC; Institute of Fundamental Physics (IFF), CSIC, Madrid, Spain",
+      "orcid": "0000-0001-8775-0135"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "squeezed light",
+    "laser",
+    "cavity QED",
+    "cold atoms",
+    "cumulant expansion"
+  ]
+}
