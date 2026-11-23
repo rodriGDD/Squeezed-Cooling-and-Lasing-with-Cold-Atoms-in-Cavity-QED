@@ -1,4 +1,4 @@
-# Fig. S5 — Squeezing spectrum of the seeded system
+# Fig. S5: Squeezing spectrum of the seeded system
 
 Squeezing spectrum $S^{\rm sq}_{\hat X}(\nu)$ of the laser with a weak coherent seed ($\Lambda = 10^{-2}$), as a function of the cavity decay $\kappa$, for $N_c = 5000$, $N_g = 300$ and $r = 0.8$.
 
@@ -16,13 +16,11 @@ The figure is drawn by `plot_figS5.ipynb` into `figures/panels.svg` and annotate
 1. Run `notebooks/1_full_model_seeded.ipynb` and `notebooks/2_effective_model_seeded.ipynb` (Julia, independent of each other). Start Julia with several threads (`julia -t auto`): the loop over $\kappa$ is parallel.
 2. Run `plot_figS5.ipynb` (Python).
 
-All notebooks use paths relative to their own folder.
-
 The spectra are obtained by integrating the two-time correlation functions up to $\tau = 10^6$ with $\Delta\tau = 2$ and Fourier-transforming them, which gives a resolution of 1 kHz over ±250 MHz. Only the plotted window $|\nu| \le 2$ MHz is saved.
 
 ## Data
 
-All arrays are `.npy`. Rates and frequencies are angular frequencies in units of 2π·GHz.
+All arrays are `.npy`. Rates and frequencies are angular frequencies, with the frequency in GHz.
 
 | File | Content | Shape |
 |---|---|---|

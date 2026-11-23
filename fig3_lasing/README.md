@@ -1,4 +1,4 @@
-# Fig. 3 — Phases of the squeezed laser
+# Fig. 3: Phases of the squeezed laser
 
 | Panel | Content | Produced by |
 |---|---|---|
@@ -15,13 +15,11 @@ All panels are drawn by `plot_fig3.ipynb` into `figures/panels_abc.svg` and `fig
 1. Run the Julia notebooks in `notebooks/`. They are independent except that `3_cumulants_Nc_Ng_seeded.ipynb` needs the output of `2_cumulants_Nc_Ng.ipynb`. The phase-diagram notebooks (1, 4) only compute eigenvalues and are fast; the cumulant notebooks (2, 3, 5) are expensive: start Julia with several threads (`julia -t auto`).
 2. Run `plot_fig3.ipynb` (Python).
 
-All notebooks use paths relative to their own folder.
-
 ## Data
 
-All arrays are `.npy`, with shapes as saved from Julia (the plotting notebook transposes the maps). Rates and frequencies are angular frequencies in units of 2π·GHz.
+All arrays are `.npy`, with shapes as saved from Julia (the plotting notebook transposes the maps). Rates and frequencies are angular frequencies, with the frequency in GHz.
 
-### `data/Nc_Ng/` — panels (d), (e)
+### `data/Nc_Ng/` (panels d, e)
 
 Grid: $N_c$ = `logspace(2, log10(2e4))`, $N_g$ = `logspace(1, log10(2e4))`; 1000 points per axis for the mean-field maps, 150 for the cumulant expansion.
 
@@ -37,7 +35,7 @@ Grid: $N_c$ = `logspace(2, log10(2e4))`, $N_g$ = `logspace(1, log10(2e4))`; 1000
 | `cond_adiab_r.npy`, `cond_adiab_u.npy` | Adiabatic-elimination conditions for levels $r$ and $u$ | (150, 150) |
 | `cond_cool.npy` | Cooling condition | (150, 150) |
 
-### `data/P_Ng/` — panels (a)–(c)
+### `data/P_Ng/` (panels a–c)
 
 Grid: $N_c = 3000$, $N_g$ = `logspace(1, 4)`, $w^{\rm p}$ = `logrange(1e-6, 1.798e-2)`; 1000 points per axis for the mean-field maps, 150 for the cumulant expansion. The effective-model cut is at $N_g = 400$.
 

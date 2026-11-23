@@ -1,4 +1,4 @@
-# Fig. 2 — Squeezing of the cavity field by cooling atoms
+# Fig. 2: Squeezing of the cavity field by cooling atoms
 
 | Panel | Content | Produced by |
 |---|---|---|
@@ -14,8 +14,6 @@ The panels are combined (and annotated) in Inkscape into `figures/fig2.svg`, exp
 2. Run `notebooks/3_wigner_functions.ipynb` (Julia), which draws panel (b) directly.
 3. Run `plot_fig2.ipynb` (Python) to draw panels (a) and (c) into `figures/`.
 
-All notebooks use paths relative to their own folder.
-
 ## Data
 
 All arrays are `.npy`. Maps have shape `(r, N_c)` as saved from Julia (the plotting notebook transposes them).
@@ -29,10 +27,6 @@ All arrays are `.npy`. Maps have shape `(r, N_c)` as saved from Julia (the plott
 | `dX_eff.npy` | $\Delta\hat X$, analytical effective model | (150, 150) |
 | `Ssq_min_full.npy`, `Ssq_min_eff.npy` | $-\min_\nu S^{\rm sq}_{\hat X}(\nu)$ in dB, full / effective model | (150, 150) |
 | `Ssq_cut_full.npy`, `Ssq_cut_eff.npy` | $-S^{\rm sq}_{\hat X}(\nu)$ in dB at $r \approx 8.7$ dB, as a function of $(N_c, \nu)$ | (150, 1000) |
-| `cond_r.npy`, `cond_chi.npy`, `cond_g0.npy` | Validity conditions of the adiabatic eliminations (black dashed lines, drawn at the level 1) | (150, 150) |
+| `cond_r.npy`, `cond_chi.npy`, `cond_g0.npy` | Validity conditions of the adiabatic eliminations (black dashed lines, drawn where they equal 1) | (150, 150) |
 
-Spectra are stored as $-10\log_{10} S$, so positive values mean squeezing.
-
-## Notes
-
-- `wigner_x.npy` and `wigner_W.npy` are written by `3_wigner_functions.ipynb` the next time it is run; they are not needed by `plot_fig2.ipynb`.
+Spectra are stored as $-10\log_{10} S$, so positive values mean squeezing, as in Fig. 2 of the paper.

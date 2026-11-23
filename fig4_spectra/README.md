@@ -1,4 +1,4 @@
-# Fig. 4 — Squeezing and emission spectra
+# Fig. 4: Squeezing and emission spectra
 
 Spectra of the squeezed laser with $N_c = 5000$ cooling atoms, $N_g = 300$ gain atoms and $r = 0.8$.
 
@@ -17,13 +17,11 @@ All panels are drawn by `plot_fig4.ipynb` into `figures/panels_abc.svg` and `fig
 1. Run the Julia notebooks in `notebooks/` (independent of each other). Start Julia with several threads (`julia -t auto`): the loops over $w^{\rm p}$ and $\kappa$ are parallel.
 2. Run `plot_fig4.ipynb` (Python).
 
-All notebooks use paths relative to their own folder.
-
 ## Data
 
-All arrays are `.npy`, with shapes as saved from Julia. Rates and frequencies are angular frequencies in units of 2π·GHz. Spectra are stored as $10\log_{10} S$ in dB, so negative values mean squeezing.
+All arrays are `.npy`, with shapes as saved from Julia. Rates and frequencies are angular frequencies, with the frequency in GHz. Spectra are stored as $10\log_{10} S$ in dB, so negative values mean squeezing.
 
-### `data/pump/` — panels (a)–(c)
+### `data/pump/` (panels a–c)
 
 | File | Content | Shape |
 |---|---|---|
@@ -35,7 +33,7 @@ All arrays are `.npy`, with shapes as saved from Julia. Rates and frequencies ar
 | `linewidth.npy` | Decay rates of the linearised mean-field equations, full model | (150, 4) |
 | `eff_positions.npy`, `eff_widths.npy` | Positions and widths of the two spectral lines, effective model | (150, 2) |
 
-### `data/kappa/` — panels (d), (e)
+### `data/kappa/` (panels d, e)
 
 | File | Content | Shape |
 |---|---|---|
