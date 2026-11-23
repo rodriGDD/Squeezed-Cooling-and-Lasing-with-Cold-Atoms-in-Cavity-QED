@@ -54,15 +54,16 @@ The saved data are included, so the figures can be redrawn without running the s
 
 Rodrigo Grande de Diego — rodrigo.grande@iff.csic.es
 
-## How to cite
-
-If you use this code, please cite:
+## How to cite this code
 
 ```bibtex
-@article{TO_BE_ADDED,
-  title   = {[Title — to be added]},
-  author  = {Grande de Diego, Rodrigo and S{\'a}nchez Mu{\~n}oz, Carlos},
-  journal = {arXiv preprint [arXiv number — to be added]},
-  year    = {[Year — to be added]}
+@software{GrandeDeDiego2026code,
+  author    = {Grande de Diego, Rodrigo and S{\'a}nchez Mu{\~n}oz, Carlos},
+  title     = {Code and data for "Squeezed Cooling and Lasing with Cold Atoms in Cavity-QED"},
+  year      = {2026},
+  publisher = {Zenodo},
+  version = {1.0.0},
+  doi       = {10.5281/zenodo.24473853},
+  url       = {https://doi.org/10.5281/zenodo.24473853}
 }
 ```
