@@ -7,8 +7,10 @@ This repository contains the code and data required to reproduce the figures of 
 The simulations are Julia notebooks (cumulant expansions with [QuantumCumulants.jl](https://github.com/qojulia/QuantumCumulants.jl), exact steady states with [QuantumToolbox.jl](https://github.com/qutip/QuantumToolbox.jl)) and the figures are drawn with Python (matplotlib).
 
 <p align="center">
-  <img src="fig1_scheme/fig1.png" width="900" alt="Fig. 1"><br>
-  <em>Fig. 1 — (a) Atoms in a two-mode cavity (decay rates κ and κ<sub>b</sub>) driven by Raman drives (Ω<sub>r</sub>, Ω<sub>s</sub>), a cooling drive (Ω<sub>b</sub>) and repumping drives. (b) Level scheme for squeezed cooling of the cavity field. (c) Level scheme for squeezed lasing, with incoherent pumping w<sup>p</sup>. The insets show the Wigner function of the cavity field in each case.</em>
+  <img src="fig1_scheme/fig1.png" width="900" alt="Fig. 1">
+</p>
+<p align="justify">
+  <b>Figure: Implementation of the squeezed laser</b>. (a) Scheme of the proposed physical setup of the system. The two ensembles of rubidium atoms are trapped within an optical cavity and transversely pumped by external lasers. The blue colored ensemble contains atoms from Fig. (b), and the red one contains atoms from Fig. (c). (b) Energy level diagram of the cooling atoms. In the long-time limit, these act as a buffer, cooling the cavity to a squeezed vacuum state, represented with its Wigner function. (c) Energy level diagram of the lasing atoms that constitute the gain medium. When these are pumped with the repumping drives, the steady state can be accurately described by a phase-diffused mixture of displaced squeezed states. The black circle in both plots of the Wigner functions represents vacuum fluctuations.
 </p>
 
 ## How to use
@@ -58,8 +60,6 @@ The saved data are included, so the figures can be redrawn without running the s
 Rodrigo Grande de Diego — rodrigo.grande@iff.csic.es
 
 ## How to cite this code
-
-If you use this code or data, please cite the paper ([arXiv:2611.24743](https://arxiv.org/abs/2611.24743)) and this repository:
 
 ```bibtex
 @software{GrandeDeDiego2026code,
