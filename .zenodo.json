@@ -1,5 +1,5 @@
 {
-  "title": "Squeezed cooling and lasing with cold atoms in cavity QED: code and data",
+  "title": "Code and data for \"Squeezed Cooling and Lasing with Cold Atoms in Cavity-QED\"",
   "upload_type": "software",
   "description": "Julia simulation notebooks, Python plotting notebooks and data to reproduce Figs. 2, 3, 4 and S5 of the paper.",
   "creators": [
@@ -21,5 +21,13 @@
     "cavity QED",
     "cold atoms",
     "cumulant expansion"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2611.24743",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    }
   ]
 }
