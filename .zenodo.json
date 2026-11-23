@@ -1,7 +1,7 @@
 {
   "title": "Code and data for \"Squeezed Cooling and Lasing with Cold Atoms in Cavity-QED\"",
   "upload_type": "software",
-  "description": "Julia simulation notebooks, Python plotting notebooks and data to reproduce Figs. 2, 3, 4 and S5 of the paper.",
+  "description": "Julia simulation notebooks, Python plotting notebooks, and numerical data to reproduce Figs. 2, 3, 4 and S5 of the paper.",
   "creators": [
     {
       "name": "Grande de Diego, Rodrigo",
