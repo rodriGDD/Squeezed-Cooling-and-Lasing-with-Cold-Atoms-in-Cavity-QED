@@ -27,7 +27,11 @@ Run the notebooks with this environment and several threads, e.g. register a Jup
 julia -e 'using IJulia; installkernel("Julia (squeezed laser)", "--project=$(pwd())", "--threads=auto")'
 ```
 
-**Python** (3.11) with `numpy`, `scipy`, `matplotlib` and `jupyter`.
+**Python** (3.11). The packages used by the plotting notebooks are pinned in `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
 
 Each figure folder has the same layout:
 
