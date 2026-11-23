@@ -1,0 +1,14 @@
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+QuantumCumulants = "35bcea6d-e19f-57db-af74-8011de6c7255"
+QuantumOptics = "6e0679c1-51ea-5a7c-ac74-d61b76210b0c"
+QuantumToolbox = "6c2fb7c5-b903-41d2-bc5e-5a7c320b9fab"
+WignerSymbols = "9f57e263-0b3d-5e2e-b1be-24f2bb48858b"
+
+[compat]
+julia = "1.11"
