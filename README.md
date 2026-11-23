@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1468941896.svg)](https://doi.org/10.5281/zenodo.24473853)
+
 # Squeezed Cooling and Lasing — code and data
 
 This repository contains the code and data required to reproduce the figures of the paper [Squeezed Cooling and Lasing with Cold Atoms in Cavity-QED](https://arxiv.org/html/2611.24743v1).
